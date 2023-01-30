@@ -1,0 +1,18 @@
+.goUpBtn {
+  position: fixed;
+  right: 50px;
+  bottom: 40px;
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  background: #222 url(../assets/images/ico_top_on.png) no-repeat center center/
+    26px auto;
+  // img {
+  //   margin: auto;
+  //   margin-top: 20px;
+  //   display: block;
+  // }
+  &.hover {
+    background-color: #7fbf36;
+  }
+}
