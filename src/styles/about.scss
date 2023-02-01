@@ -1,0 +1,75 @@
+.About {
+  width: 100%;
+  height: 100%;
+  background-color: #222;
+
+  .AboutContent {
+    width: 1440px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+    margin: 120px auto 0;
+    color: #fff;
+    background: url(../assets/images/images.jpg) no-repeat 360px 210px /220px 260px;
+    .title {
+      padding: 0 0 0 400px;
+      font-size: 50px;
+      strong {
+        color: #7fbf36;
+      }
+    }
+    .profile {
+      padding: 92px 0 0 700px;
+      h2 {
+        font-size: 28px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: lighter;
+        line-height: 24px;
+      }
+    }
+    .carrior {
+      padding: 0 0 0 700px;
+      margin-top: 18px;
+      h3 {
+        font-size: 24px;
+      }
+      p {
+        font-size: 14px;
+        font-weight: lighter;
+        line-height: 24px;
+      }
+    }
+    .imgBox {
+      margin: 0 0 0 700px;
+      width: 80px;
+      height: 80px;
+      margin-top: 19px;
+      display: flex;
+      gap: 0.5vw;
+      .iconImg1 {
+        width: 32px;
+        height: 32px;
+        background-color: #ddd;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+      }
+      .iconImg2 {
+        // background: url(../assets/images/tistory-icon.png) no-repeat 50% / cover;
+        width: 32px;
+        height: 32px;
+        background-color: #ddd;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+      }
+    }
+  }
+
+  .end {
+    color: #fff;
+    position: fixed;
+    right: 50%;
+    bottom: 40px;
+    font-size: 14px;
+  }
+}

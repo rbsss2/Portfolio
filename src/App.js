@@ -38,8 +38,6 @@ function App() {
       <Section>
         <About />
       </Section>
-
-      {/* <Dots /> */}
     </SectionsContainer>
   );
 }
