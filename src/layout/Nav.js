@@ -7,10 +7,18 @@ function Nav(props) {
       <h1 className="logo">오대균 포트폴리오</h1>
 
       <ul className="gnb">
-        <li className="gnbList">Main</li>
-        <li className="gnbList">Project</li>
-        <li className="gnbList">Skill</li>
-        <li className="gnbList">About</li>
+        <li className="gnbList">
+          <Link to="/">Main</Link>
+        </li>
+        <li className="gnbList">
+          <Link to="/Project">Project</Link>
+        </li>
+        <li className="gnbList">
+          <Link to="/Skill">Skill</Link>
+        </li>
+        <li className="gnbList">
+          <Link to="/About">About</Link>
+        </li>
       </ul>
     </div>
   );

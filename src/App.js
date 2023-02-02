@@ -2,12 +2,14 @@ import Main from "./layout/Main";
 import Project from "./layout/Project";
 import Skill from "./layout/Skill";
 import About from "./layout/About";
-
 import { SectionsContainer, Section } from "react-fullpage";
 
+import { Link } from "react-router-dom";
+
 import "./app.scss";
-// reset
-import "./assets/styles/reset.scss";
+
+// style
+import "./assets/styles/style.scss";
 
 let options = {
   activeClass: "active",
@@ -27,8 +29,11 @@ function App() {
   return (
     <SectionsContainer {...options}>
       <Section>
-        <Main />
+        <Link to="/">
+          <Main />
+        </Link>
       </Section>
+
       <Section>
         <Project />
       </Section>

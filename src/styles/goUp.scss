@@ -7,8 +7,11 @@
   border-radius: 50%;
   background: #000 url(../assets/images/ico_top_on.png) no-repeat center center/
     26px auto;
-
-  &.hover {
+  cursor: pointer;
+  &:hover {
     background-color: #7fbf36;
+  }
+  &.on {
+    display: block;
   }
 }

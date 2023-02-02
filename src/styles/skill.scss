@@ -1,39 +1,56 @@
 .skill {
   width: 100%;
   height: calc(100% - 150px);
+  // height: 100%;
   .skillList {
     width: 1440px;
     margin: 150px auto 0;
+
+    gap: 2vw;
     .Box1 {
     }
     .skillBox {
       max-width: 1300px;
-      display: flex;
-      justify-content: center;
-      align-items: center;
+      // display: flex;
+      // justify-content: center;
+      // align-items: center;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+
       margin-top: 30px;
       margin-left: 30px;
       border-bottom: 1px solid #ddd;
-      padding-bottom: 20px;
+      // padding-bottom: 20px;
     }
     .skillTitle {
       text-align: end;
       margin-right: 10vw;
-
+      font-weight: bold;
+      &:after {
+        content: "";
+        width: 1px;
+        height: 29px;
+        color: #000;
+        background-color: #000;
+        display: inline-flex;
+        position: relative;
+        left: 50%;
+        transform: translateY(-150%);
+      }
       h1 {
         font-size: 40px;
       }
       p {
+        margin-top: 7px;
         color: #7fbf36;
         font-size: 20;
+        text-transform: capitalize;
       }
     }
     .skillDes {
       font-size: 18px;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 2vw;
-      text-align: center;
+      padding-top: 20px;
+      text-align: left;
     }
   }
 }
