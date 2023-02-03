@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9725df7c.css",
-    "main.js": "/Portfolio/static/js/main.0f3b457c.js",
+    "main.css": "/Portfolio/static/css/main.184d87f0.css",
+    "main.js": "/Portfolio/static/js/main.97dece0d.js",
     "static/media/mainVideo.mp4": "/Portfolio/static/media/mainVideo.dc1a8f3c367fc5c7e640.mp4",
     "static/media/PretendardVariable.woff2": "/Portfolio/static/media/PretendardVariable.36b3a87cd98126711b2b.woff2",
     "static/media/NotoSans-Bold.woff": "/Portfolio/static/media/NotoSans-Bold.ba396a9fc63ba86c7d0a.woff",
@@ -13,11 +13,11 @@
     "static/media/favicon.ico": "/Portfolio/static/media/favicon.8b99fbec107edde521c6.ico",
     "static/media/fivestone2.jpg": "/Portfolio/static/media/fivestone2.58721d3bc95cad74195d.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.9725df7c.css.map": "/Portfolio/static/css/main.9725df7c.css.map",
-    "main.0f3b457c.js.map": "/Portfolio/static/js/main.0f3b457c.js.map"
+    "main.184d87f0.css.map": "/Portfolio/static/css/main.184d87f0.css.map",
+    "main.97dece0d.js.map": "/Portfolio/static/js/main.97dece0d.js.map"
   },
   "entrypoints": [
-    "static/css/main.9725df7c.css",
-    "static/js/main.0f3b457c.js"
+    "static/css/main.184d87f0.css",
+    "static/js/main.97dece0d.js"
   ]
 }
