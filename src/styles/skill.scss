@@ -1,23 +1,21 @@
 .skill {
   width: 100%;
-  height: calc(100% - 150px);
-  // height: 100%;
+  // height: calc(100% - 150px);
+  margin: 0 auto;
+  height: 100vh;
   .skillList {
-    width: 1440px;
-    margin: 150px auto 0;
-
+    // width: 1440px;
+    width: 100%;
+    height: 100%;
+    display: grid;
+    place-content: center;
     gap: 2vw;
-    .Box1 {
-    }
+
     .skillBox {
       max-width: 1300px;
-      // display: flex;
-      // justify-content: center;
-      // align-items: center;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
-
-      margin-top: 30px;
+      // margin-top: 30px;
       margin-left: 30px;
       border-bottom: 1px solid #ddd;
       // padding-bottom: 20px;

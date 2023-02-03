@@ -14,9 +14,36 @@
     <link rel="/manifest" href="%PUBLIC_URL%/manifest.json" />
 
     <title>React App</title>
+    <!-- fullpage.js -->
+    <script src="
+    https://cdn.jsdelivr.net/npm/fullpage.js@2.9.4/dist/jquery.fullpage.min.js
+    "></script>
+    <link
+      href="
+    https://cdn.jsdelivr.net/npm/fullpage.js@2.9.4/dist/jquery.fullpage.min.css
+    "
+      rel="stylesheet"
+    />
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
+
+    <script>
+      $(document).ready(function () {
+        $("#fullpage").fullpage({
+          //options here
+          autoScrolling: true,
+          scrollHorizontally: true,
+          slidesNavigation: true,
+          menu: ".menu",
+          scrollingSpeed: 1000,
+          anchors: ["Main", "Project", "Skill", "About"],
+        });
+
+        //methods
+        $.fn.fullpage.setAllowScrolling(false);
+      });
+    </script>
   </body>
 </html>

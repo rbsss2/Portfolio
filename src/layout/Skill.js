@@ -5,8 +5,10 @@ import SkillList from "../components/SkillList";
 import "../styles/skill.scss";
 function Skill(props) {
   return (
-    <div className="skill">
-      <SkillList />
+    <div className="section sec3">
+      <div className="skill">
+        <SkillList />
+      </div>
     </div>
   );
 }

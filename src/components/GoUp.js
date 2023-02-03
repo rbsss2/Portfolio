@@ -3,33 +3,36 @@ import "../styles/goUp.scss";
 import { useEffect, useState } from "react";
 
 function GoUp(props) {
-  // const [upBtn, setUpBtn] = useState(false);
-  // const handleGoUp = () => {
-  //   window.scrollTo({
-  //     top: 0,
-  //     behavior: "smooth",
-  //   });
-  // };
+  const [upBtn, setUpBtn] = useState(false);
+  const handleGoUp = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
 
-  // useEffect(() => {
-  //   console.log(window.scrollY);
-  //   window.handlescroll = () => {
-  //     window.scrollY > 160 ? setUpBtn(true) : setUpBtn(false);
-  //   };
+  useEffect(() => {
+    console.log(window.scrollY);
+    window.handlescroll = () => {
+      window.scrollY > 4000 ? setUpBtn(true) : setUpBtn(false);
+    };
 
-  //   window.addEventListener("scroll", handlescroll);
+    window.addEventListener("scroll", handlescroll);
 
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
   return (
     <>
-      {/* <div
+      <div
         className={upBtn ? "goUpBtn on" : "goUpBtn"}
         onClick={handleGoUp}
-      ></div> */}
-      <div className="goUpBtn"></div>;
+        data-menuanchor="Main"
+      >
+        <a href="#Main"></a>
+      </div>
+      {/* <div className="goUpBtn" data-menuanchor="Main"></div>; */}
     </>
   );
 }

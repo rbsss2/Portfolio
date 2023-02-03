@@ -1,12 +1,10 @@
 import React from "react";
-import Nav from "../layout/Nav";
 
 import img1 from "../assets/images/GITHUB_icon.png";
 import img2 from "../assets/images/favicon.ico";
 function AboutContents(props) {
   return (
     <section className="section">
-      <Nav />
       <article className="AboutContent">
         <div className="title">
           <h1>

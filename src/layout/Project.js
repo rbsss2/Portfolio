@@ -10,11 +10,12 @@ import "../styles/project.scss";
 import Nav from "./Nav";
 function Project(props) {
   return (
-    <div className="project">
-      <Nav />
-      <ProjectSwiper />
-      {/* <ProjectScroll /> */}
-      <ProjectContents />
+    <div className="section sec2">
+      <div className="project">
+        <ProjectSwiper />
+        {/* <ProjectScroll /> */}
+        <ProjectContents />
+      </div>
     </div>
   );
 }

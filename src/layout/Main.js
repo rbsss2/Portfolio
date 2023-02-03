@@ -6,7 +6,6 @@ import Nav from "./Nav";
 function Main(props) {
   return (
     <div className="section sec1 active">
-      <Nav />
       <MainContents />
     </div>
   );

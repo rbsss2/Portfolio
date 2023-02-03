@@ -1,23 +1,30 @@
 import React from "react";
-import { Routes, Route, Link, NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 import "../styles/nav.scss";
+
 function Nav(props) {
   return (
     <div className="gnbBox">
-      <h1 className="logo">오대균 포트폴리오</h1>
+      <h1 className="logo" data-menuanchor="Main">
+        <a href="#Main">오대균 포트폴리오</a>
+      </h1>
 
-      <ul className="gnb">
-        <li className="gnbList">
-          <Link to="/">Main</Link>
+      <ul className="gnb menu">
+        <li className="gnbList active" data-menuanchor="Main">
+          {/* <Link to="#Main">Main</Link> */}
+          <a href="#Main">Main</a>
         </li>
-        <li className="gnbList">
-          <Link to="/Project">Project</Link>
+        <li className="gnbList" data-menuanchor="Project">
+          {/* <Link to="#Project">Project</Link> */}
+          <a href="#Project">Project</a>
         </li>
-        <li className="gnbList">
-          <Link to="/Skill">Skill</Link>
+        <li className="gnbList" data-menuanchor="Skill">
+          {/* <Link to="#Skill">Skill</Link> */}
+          <a href="#Skill">Skill</a>
         </li>
-        <li className="gnbList">
-          <Link to="/About">About</Link>
+        <li className="gnbList" data-menuanchor="About">
+          {/* <Link to="#About">About</Link> */}
+          <a href="#About">About</a>
         </li>
       </ul>
     </div>
