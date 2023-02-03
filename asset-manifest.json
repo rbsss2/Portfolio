@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.9725df7c.css",
+    "main.js": "/Portfolio/static/js/main.0f3b457c.js",
+    "static/media/mainVideo.mp4": "/Portfolio/static/media/mainVideo.dc1a8f3c367fc5c7e640.mp4",
+    "static/media/PretendardVariable.woff2": "/Portfolio/static/media/PretendardVariable.36b3a87cd98126711b2b.woff2",
+    "static/media/NotoSans-Bold.woff": "/Portfolio/static/media/NotoSans-Bold.ba396a9fc63ba86c7d0a.woff",
+    "static/media/NotoSans-Regular.woff": "/Portfolio/static/media/NotoSans-Regular.d19c129f30e0373f60b6.woff",
+    "static/media/NotoSans-Medium.woff": "/Portfolio/static/media/NotoSans-Medium.e892f21f7dd918a8fab9.woff",
+    "static/media/NotoSans-DemiLight.woff": "/Portfolio/static/media/NotoSans-DemiLight.1ada0fb3924828015f3b.woff",
+    "static/media/BasicSans-Regular.woff": "/Portfolio/static/media/BasicSans-Regular.b99290147a48446744f9.woff",
+    "static/media/BasicSans-Regular.woff2": "/Portfolio/static/media/BasicSans-Regular.089dac9ac5624c300613.woff2",
+    "static/media/favicon.ico": "/Portfolio/static/media/favicon.8b99fbec107edde521c6.ico",
+    "static/media/fivestone2.jpg": "/Portfolio/static/media/fivestone2.58721d3bc95cad74195d.jpg",
+    "index.html": "/Portfolio/index.html",
+    "main.9725df7c.css.map": "/Portfolio/static/css/main.9725df7c.css.map",
+    "main.0f3b457c.js.map": "/Portfolio/static/js/main.0f3b457c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9725df7c.css",
+    "static/js/main.0f3b457c.js"
+  ]
+}
