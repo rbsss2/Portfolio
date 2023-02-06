@@ -1,10 +1,30 @@
-import React from "react";
 import { Link } from "react-router-dom";
 import "../styles/nav.scss";
-
+import { useRef, useEffect } from "react";
 function Nav(props) {
+  const headerRef = useRef(null);
+
+  const handleScroll = () => {
+    console.log("스크롤 중");
+    console.log(window.scrollY);
+
+    if (window.scrollY > 1900) {
+      headerRef.current.className = "gnbBox on";
+    } else {
+      headerRef.current.className = "gnbBox";
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="gnbBox">
+    <div className="gnbBox" ref={headerRef}>
       <h1 className="logo" data-menuanchor="Main">
         <a href="#Main">오대균 포트폴리오</a>
       </h1>

@@ -2,6 +2,7 @@ import React from "react";
 
 import img1 from "../assets/images/GITHUB_icon.png";
 import img2 from "../assets/images/favicon.ico";
+import { Link } from "react-router-dom";
 function AboutContents(props) {
   return (
     <section className="section">
@@ -24,10 +25,14 @@ function AboutContents(props) {
         </div>
         <div className="imgBox">
           <span className="iconImg1">
-            <img src={img1} />
+            <a href="https://github.com/rbsss2">
+              <img src={img1} />
+            </a>
           </span>
           <span className="iconImg2">
-            <img src={img2} />
+            <a href="https://rbsss2.tistory.com/">
+              <img src={img2} />
+            </a>
           </span>
         </div>
       </article>

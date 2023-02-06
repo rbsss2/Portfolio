@@ -5,8 +5,7 @@ import About from "./layout/About";
 import Nav from "./layout/Nav";
 import React from "react";
 import { SectionsContainer, Section } from "react-fullpage";
-import "./app.scss";
-
+import { Link, NavLink, Routes, Route } from "react-router-dom";
 // style
 import "./assets/styles/style.scss";
 import GoUp from "./components/GoUp";

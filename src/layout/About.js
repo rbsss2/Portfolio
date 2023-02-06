@@ -6,7 +6,7 @@ import AboutContents from "../components/AboutContents";
 import "../styles/about.scss";
 function About(props) {
   return (
-    <div className="section">
+    <div className="section sec4">
       <div className="About">
         <GoUp />
         <AboutContents />

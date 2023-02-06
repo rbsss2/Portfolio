@@ -7,6 +7,9 @@
   padding: 50px 0;
   color: #fff;
   z-index: 9999;
+  &.on {
+    color: #222;
+  }
 }
 .logo {
   font-size: 24px;
@@ -15,7 +18,7 @@
 }
 .logo a {
   font-size: 24px;
-  color: #fff;
+  color: inherit;
 }
 .gnb {
   display: flex;

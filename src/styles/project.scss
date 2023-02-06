@@ -65,11 +65,50 @@
           }
         }
       }
-      .projectImage {
+      .projectImage1 {
         width: 712px;
         height: 400px;
         background: url(../assets/images/fivestone2.jpg) no-repeat 50% / cover;
       }
+      .projectImage2 {
+        width: 712px;
+        height: 400px;
+        background: url(../assets/images/playd2.jpg) no-repeat 50% / cover;
+      }
+      .projectImage3 {
+        width: 712px;
+        height: 400px;
+        background: url(../assets/images/fivestone2.jpg) no-repeat 50% / cover;
+      }
+      .projectImage4 {
+        width: 712px;
+        height: 400px;
+        background: url(../assets/images/gotcha.jpg) no-repeat 50% / cover;
+      }
     }
   }
+}
+
+.mouse {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  top: 40vh;
+  left: 50%;
+  background: url(../assets/images/pointer.png) no-repeat 50% / contain;
+}
+.left {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 40vh;
+  background: url(../assets/images/left.png) no-repeat 50% / contain;
+}
+.right {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  top: 40vh;
+  left: 150%;
+  background: url(../assets/images/right.png) no-repeat 50% / contain;
 }
