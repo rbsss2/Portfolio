@@ -49,7 +49,7 @@ export default function App() {
                 <h1 className="title">파이브스톤</h1>
                 <h2 className="subTitle">React</h2>
                 {/* j쿼리 풀페이지 특성상 #으로는 리액트에서 페이지안에페이지로 연결이 /는 인식 안됨 포트폴리오서브페이지로 주소 연결 */}
-                <a href="https://github.com/">
+                <a href="https://rbsss2.github.io/portfolioSubpage/">
                   <div className="goProject">
                     <p className="goProjectText">프로젝트 보러가기</p>
 
@@ -80,7 +80,7 @@ export default function App() {
               <div className="titleBox">
                 <h1 className="title">플레이디</h1>
                 <h2 className="subTitle">JavaScript</h2>
-                <a href="https://github.com/">
+                <a href="https://rbsss2.github.io/portfolioSubpage/">
                   <div className="goProject">
                     <p className="goProjectText">프로젝트 보러가기</p>
                     <div className="gogo">
@@ -112,7 +112,7 @@ export default function App() {
               <div className="titleBox">
                 <h1 className="title">개인프로젝트</h1>
                 <h2 className="subTitle">project1</h2>
-                <a href="https://github.com/">
+                <a href="https://rbsss2.github.io/portfolioSubpage/">
                   <div className="goProject">
                     <p className="goProjectText">프로젝트 보러가기</p>
                     <div className="gogo">
@@ -139,7 +139,7 @@ export default function App() {
         <SwiperSlide>
           <div className="swiper-slide slide" data-anchor="slide4">
             <div className="titleWrapper">
-              <a href="https://github.com/">
+              <a href="https://rbsss2.github.io/portfolioSubpage/">
                 <div className="titleBox">
                   <h1 className="title">다함께차차차</h1>
                   <h2 className="subTitle">HTML5&CSS3</h2>
