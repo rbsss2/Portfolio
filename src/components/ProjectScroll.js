@@ -159,6 +159,7 @@ export default function App() {
               </a>
               <div className="projectImage4"></div>
             </div>
+
             <Right>
               <div className="mouse"></div>
               <div className="right"></div>

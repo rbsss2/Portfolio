@@ -29,7 +29,7 @@ function ProjectSwiper(props) {
                 <div className="projectImage"></div>
               </div>
             </div>
-            {/* <div className="swiper-slide slide" data-anchor="slide2">
+            <div className="swiper-slide slide" data-anchor="slide2">
               <div className="titleWrapper">
                 <div className="titleBox">
                   <h1 className="title">플레이디</h1>
@@ -91,7 +91,7 @@ function ProjectSwiper(props) {
                 </div>
                 <div className="projectImage"></div>
               </div>
-            </div> */}
+            </div>
           </div>
           {/* Add Pagination  */}
           <div className="swiper-pagination"></div>
