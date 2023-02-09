@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.1b16ab5b.css",
+    "main.css": "/Portfolio/static/css/main.6564ff02.css",
     "main.js": "/Portfolio/static/js/main.9e257c76.js",
     "static/media/mainVideo.mp4": "/Portfolio/static/media/mainVideo.dc1a8f3c367fc5c7e640.mp4",
     "static/media/PretendardVariable.woff2": "/Portfolio/static/media/PretendardVariable.36b3a87cd98126711b2b.woff2",
@@ -12,15 +12,15 @@
     "static/media/BasicSans-Regular.woff": "/Portfolio/static/media/BasicSans-Regular.b99290147a48446744f9.woff",
     "static/media/BasicSans-Regular.woff2": "/Portfolio/static/media/BasicSans-Regular.089dac9ac5624c300613.woff2",
     "static/media/favicon.ico": "/Portfolio/static/media/favicon.8b99fbec107edde521c6.ico",
-    "static/media/pointer.png": "/Portfolio/static/media/pointer.572d7b350f7a06617064.png",
     "static/media/leftClick.png": "/Portfolio/static/media/leftClick.0bb10673c09c0da79dd6.png",
     "static/media/fivestone2.jpg": "/Portfolio/static/media/fivestone2.58721d3bc95cad74195d.jpg",
+    "static/media/pointer1.jpg": "/Portfolio/static/media/pointer1.c57db61a7f59c370af98.jpg",
     "index.html": "/Portfolio/index.html",
-    "main.1b16ab5b.css.map": "/Portfolio/static/css/main.1b16ab5b.css.map",
+    "main.6564ff02.css.map": "/Portfolio/static/css/main.6564ff02.css.map",
     "main.9e257c76.js.map": "/Portfolio/static/js/main.9e257c76.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b16ab5b.css",
+    "static/css/main.6564ff02.css",
     "static/js/main.9e257c76.js"
   ]
 }
