@@ -65,7 +65,9 @@ export default function App() {
                   </div>
                 </a>
               </div>
-              <div className="projectImage1"></div>
+              <a href="https://rbsss2.github.io/portfolioSubpage/">
+                <div className="projectImage1"></div>
+              </a>
             </div>
 
             <Left>
@@ -95,8 +97,9 @@ export default function App() {
                   </div>
                 </a>
               </div>
-
-              <div className="projectImage2"></div>
+              <a href="https://rbsss2.github.io/portfolioSubpage/">
+                <div className="projectImage2"></div>
+              </a>
             </div>
 
             <LeftRight>
@@ -127,7 +130,9 @@ export default function App() {
                   </div>
                 </a>
               </div>
-              <div className="projectImage"></div>
+              <a href="https://rbsss2.github.io/portfolioSubpage/">
+                <div className="projectImage"></div>
+              </a>
             </div>
             <LeftRight>
               <div className="mouse"></div>
@@ -139,10 +144,10 @@ export default function App() {
         <SwiperSlide>
           <div className="swiper-slide slide" data-anchor="slide4">
             <div className="titleWrapper">
-              <a href="https://rbsss2.github.io/portfolioSubpage/">
-                <div className="titleBox">
-                  <h1 className="title">다함께차차차</h1>
-                  <h2 className="subTitle">HTML5&CSS3</h2>
+              <div className="titleBox">
+                <h1 className="title">다함께차차차</h1>
+                <h2 className="subTitle">HTML5&CSS3</h2>
+                <a href="https://rbsss2.github.io/portfolioSubpage/">
                   <div className="goProject">
                     <p className="goProjectText">프로젝트 보러가기</p>
                     <div className="gogo">
@@ -155,9 +160,11 @@ export default function App() {
                       </svg>
                     </div>
                   </div>
-                </div>
+                </a>
+              </div>
+              <a href="https://rbsss2.github.io/portfolioSubpage/">
+                <div className="projectImage4"></div>
               </a>
-              <div className="projectImage4"></div>
             </div>
 
             <Right>
