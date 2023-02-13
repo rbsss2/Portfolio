@@ -19,6 +19,9 @@
 .logo a {
   font-size: 24px;
   color: inherit;
+  &:hover {
+    color: #7fbf36;
+  }
 }
 .gnb {
   display: flex;
@@ -35,4 +38,7 @@
 .gnbList {
   margin-left: 136px;
   font-size: 20px;
+  &:hover {
+    color: #7fbf36;
+  }
 }
